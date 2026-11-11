@@ -1,0 +1,34 @@
+{
+  "movein": {
+    "name": "MoveIn",
+    "use": "Inspeksi kosan saat pindahan — bukti kondisi awal, cegah sengketa deposit.",
+    "items": [
+      {"id": "pintu-kunci", "title": "Pintu & kunci", "instruction": "Berfungsi, tidak macet", "photoRequired": true},
+      {"id": "dinding-cat", "title": "Dinding & cat", "instruction": "Noda, retak, jamur", "photoRequired": true},
+      {"id": "lantai", "title": "Lantai", "instruction": "Retak, noda, licin", "photoRequired": true},
+      {"id": "plafon-atap", "title": "Plafon & atap", "instruction": "Bocor, noda air", "photoRequired": true},
+      {"id": "jendela-ventilasi", "title": "Jendela & ventilasi", "instruction": "Bisa dibuka/dikunci", "photoRequired": false},
+      {"id": "listrik", "title": "Listrik", "instruction": "Lampu, stopkontak, MCB", "photoRequired": true},
+      {"id": "air", "title": "Air", "instruction": "Keran, shower, WC, bocor", "photoRequired": true},
+      {"id": "perabot", "title": "Perabot", "instruction": "Kasur, lemari, meja/kursi", "photoRequired": true},
+      {"id": "kebersihan", "title": "Kebersihan umum saat serah terima", "instruction": "Kondisi bersih saat serah terima", "photoRequired": true},
+      {"id": "meteran", "title": "Foto meteran listrik & air", "instruction": "Bukti angka awal", "photoRequired": true}
+    ]
+  },
+  "stallcheck": {
+    "name": "StallCheck",
+    "use": "Inspeksi kebersihan warung makan — laporan standar yang bisa dibuktikan.",
+    "items": [
+      {"id": "suhu-simpan", "title": "Suhu penyimpanan makanan dingin/panas", "instruction": "Cek suhu penyimpanan", "photoRequired": false},
+      {"id": "tangan-apron", "title": "Kebersihan tangan & apron penjual", "instruction": "Tangan dan apron bersih", "photoRequired": true},
+      {"id": "air-bersih", "title": "Air bersih untuk cuci & masak", "instruction": "Air bersih tersedia", "photoRequired": false},
+      {"id": "peralatan", "title": "Peralatan masak & makan bersih, tidak retak", "instruction": "Bersih, tidak retak", "photoRequired": true},
+      {"id": "penyimpanan-bahan", "title": "Penyimpanan bahan mentah terpisah dari matang", "instruction": "Mentah dan matang terpisah", "photoRequired": true},
+      {"id": "tanda-hama", "title": "Tanda hama (tikus, kecoa, lalat)", "instruction": "Tidak ada tanda hama", "photoRequired": true},
+      {"id": "sampah-limbah", "title": "Pengelolaan sampah & limbah", "instruction": "Sampah dan limbah terkelola", "photoRequired": true},
+      {"id": "lantai-meja", "title": "Kebersihan lantai, meja, area saji", "instruction": "Lantai, meja, area saji bersih", "photoRequired": true},
+      {"id": "label-tanggal", "title": "Label tanggal bahan yang mudah rusak", "instruction": "Bahan mudah rusak berlabel tanggal", "photoRequired": true},
+      {"id": "foto-dapur", "title": "Foto area dapur & tempat penyimpanan", "instruction": "Bukti foto dapur dan penyimpanan", "photoRequired": true}
+    ]
+  }
+}
